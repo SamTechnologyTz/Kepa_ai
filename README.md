@@ -188,12 +188,6 @@ For assistance, contact our support team:
 - **Email**: support@kepa.ai  
 - **Website**: [www.kepa.ai/support](https://www.kepa.ai/support)  
 
----
-
-## License  
-
-Kepa AI is licensed under [Insert License]. Use is subject to the terms and conditions outlined in the agreement.  
-
 --- 
 
 This documentation will evolve with new features and updates. Stay tuned!
