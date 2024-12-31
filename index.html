@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kepa AI - Text to Video</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kepa AI</h1>
+        <p>Convert your text into engaging videos</p>
+    </header>
+    <main>
+        <form id="videoForm" action="generate_video.php" method="post">
+            <label for="script">Enter your script:</label>
+            <textarea id="script" name="script" rows="10" required></textarea>
+            <label for="voice">Select Voice:</label>
+            <select id="voice" name="voice">
+                <option value="en-US-AriaNeural">English - Aria</option>
+                <option value="es-ES-ElviraNeural">Spanish - Elvira</option>
+                <!-- Add more voices as needed -->
+            </select>
+            <label for="avatar">Avatar URL:</label>
+            <input type="url" id="avatar" name="avatar">
+            <button type="submit">Generate Video</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kepa AI. All rights reserved.</p>
+    </footer>
+</body>
+      </html>
