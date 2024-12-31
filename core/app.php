@@ -97,7 +97,7 @@ class ElaiAPI
 }
 
 try {
-    $apiToken = 'YOUR_API_TOKEN';
+    $apiToken = API_TOKEN;
     $elai = new ElaiAPI($apiToken);
   
     $name = 'Hello from API!';
@@ -115,7 +115,7 @@ try {
                         'scaleY' => 0.3,
                         'width' => 1080,
                         'height' => 1080,
-                        'src' => 'https://elai-avatars.s3.us-east-2.amazonaws.com/common/gia/casual/gia_casual.png',
+                        'src' => 'assets/img/kepa.webp',
                         'avatarType' => 'transparent',
                         'animation' => [
                             'type' => null,
